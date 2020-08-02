@@ -129,10 +129,10 @@ class LL:
         while(slow.next!=fast.next):
             slow=slow.next
             fast=fast.next
-    def swap2num(self,head):
-        while(head!=None and head.next!=None):
-            head.data,head.next.data=head.next.data,head.data
-            head=head.next.next  
+#     def swap2num(self,head):
+#         while(head!=None and head.next!=None):
+#             head.data,head.next.data=head.next.data,head.data
+#             head=head.next.next  
     def revknodex(self,head,k):
         prev=None
         current=head
