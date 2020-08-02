@@ -203,12 +203,12 @@ print()
 
 
 
-# L1.swapknum(L1.head,3)
-# temp=L1.head
-# while(temp.next!=None):
-#     temp=temp.next  
-# L1.quicksort(L1.head,temp)
-# L1.prints(L1.head) 
+L1.swapknum(L1.head,3)
+temp=L1.head
+while(temp.next!=None):
+    temp=temp.next  
+L1.quicksort(L1.head,temp)
+L1.prints(L1.head) 
 
 
 
